@@ -1,8 +1,61 @@
-# Getting Started with Create React App
+# Coding Tools
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Information
+
+### Goal & Intent
+The goal of this project is to provide coders, programmers and IT professional with easy and free tools to work. 
+They will be linked to a database (Google sign-in) in order to facilitate users by having their choices and 
+input remembered. 
+
+### Technologies
+The project is made with React/Node.js. I chose React because of its ease of use and overall structure: I wanted to present
+the user with one tool at a distance of a click of a button. 
+
+### Use & Permission
+MIT License
+
+Copyright (c) [2021] [David Brodeur]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+### Current Work
+- Creating the website
+- Creating the first tools: array creator and list randomizer
+- Hooking it to a DB for keeping information of users
+- Google Log-In
+
+### Future Work
+- Add more language to array creator & more flexibility to list randomizer
+- Agile content to list randomizer
+- Char calculator in string(s)
+- String compare
+- String-to-lower/upper/camelcase
+- Concatenate strings
+- CSS rule creator
+- String into JSON
+- String analyzer and code snippets analyzer
+- Algorithm visualization
+- Conversions
+
+## React App Info
 
 In the project directory, you can run:
 
