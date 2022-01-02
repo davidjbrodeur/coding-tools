@@ -77,6 +77,7 @@ function Footer() {
                     </button>
                 </form>
             </div>
+            <br/>
         </footer>
     );
 }
