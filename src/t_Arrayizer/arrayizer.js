@@ -67,6 +67,7 @@ function Arrayizer() {
     }
 
     const handleClick = (event) => {
+        event.preventDefault();
         let result = "";
         switch(chosenLanguage){
             case "python":

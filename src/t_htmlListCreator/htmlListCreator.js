@@ -36,6 +36,7 @@ function ListCreator() {
     }
 
     const handleClick = (event) => {
+        event.preventDefault();
         let result = arrayConcatenate();
         result = result + "</ul>";
         result = result.replaceAll("&OPEN", "<");
