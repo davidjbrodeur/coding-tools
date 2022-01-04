@@ -11,7 +11,9 @@ input remembered.
 
 ### Technologies
 The project is made with React/Node.js. I chose React because of its ease of use and overall structure: I wanted to present
-the user with one tool at a distance of a click of a button. 
+the user with one tool at a distance of a click of a button. This website is using Google Clouds: 
+- Dynamic client side is Cloud Run
+- Server side is Compute Engine
 
 ### Use & Permission
 MIT License
@@ -38,13 +40,13 @@ SOFTWARE.
 
 ### Current Work
 - Creating the website
-- Creating the first tools: array creator and list randomizer
-- Hooking it to a DB for keeping information of users
-- Google Log-In
+- Finishing first tools
+- Hooking it to cloud
 
 ### Future Work
 - Add more language to array creator & more flexibility to list randomizer
 - Agile content to list randomizer
+- Put hardcoded elements (such as information on string to array) in dynamic format in the cloud to add more easily through the DB new coding language/array formats
 - Char calculator in string(s)
 - String compare
 - String-to-lower/upper/camelcase
@@ -54,6 +56,11 @@ SOFTWARE.
 - String analyzer and code snippets analyzer
 - Algorithm visualization
 - Conversions
+- Have Google log-in to keep information on some tools (e.g. keeping the same list of people for Scrum Meetings)
+
+### FIX/TODO
+- Output of array problematic with extra empty entries
+- Output of scrum meeting randomizer
 
 ## React App Info
 

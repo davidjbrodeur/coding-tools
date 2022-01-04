@@ -1,15 +1,16 @@
 import React from "react";
 
-function Arrayizer_Selector(props){
+function ArrayizerSelector(props){
 
     const selectionList = [
         {value: 'javascript', name: 'Javascript'},
+        {value: 'python', name:'Python'},
     ];
 
     return (
         <form>
             Pick your targetted coding language:
-            <select value={props.selector} onChange={props.handleChange}>
+            <select onChange={props.handleChange}>
                 {selectionList.map((e, key) => {
                     return <option key={key} value={e.value}>{e.name}</option>;
                 })}
@@ -17,4 +18,4 @@ function Arrayizer_Selector(props){
         </form>
     )
 }
-export default Arrayizer_Selector;
+export default ArrayizerSelector;

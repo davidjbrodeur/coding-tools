@@ -1,3 +1,16 @@
+/*
+
+For the neon title, credit goes to Gary Simon at https://www.behance.net/gallery/91937277/80s-Retrowave-Art-in-HTML-CSS-SVG-%28Gary-Simon%29
+For the h1, credit goes to David Parker
+For the textarea, credit goes to Chris Coyier
+
+*/
+
+* {
+    padding: 3px;
+    font-family: 'VT323', monospace;
+}
+
 :root{
     --accent-orange: #FF6C11;
     --accent-salmon: #FF3864;
@@ -25,9 +38,40 @@
     width: 15rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 header, footer{
     background: var(--accent-dark-purple);
     background: linear-gradient(var(--background-dark-purple) 40%, var(--accent-dark-pink) 41%, var(--background-dark-purple) 60%);
+}
+
+h1 {
+    color: transparent;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    transform: translatey(25px);
+    background: linear-gradient(
+            cornflowerblue 30%,
+            white,
+            darkmagenta 60%,
+            cornflowerblue 100%
+    );
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px silver;
+    filter: drop-shadow(5px 5px 1px black) drop-shadow(1px 1px 1px magenta);
+    animation: bg-shift 0.5s ease-in-out infinite alternate;
+}
+
+h2 {
+    color: white;
+    font-family: "Yellowtail", cursive;
+    font-weight: 100;
+    font-size: 2em;
+    text-shadow: 0 0 3px magenta, 0 0 7px magenta, 0 0 15px black, 0 0 15px black;
 }
 
 body {
@@ -36,10 +80,43 @@ body {
     -webkit-font-smoothing: antialiased;
     background: var(--background-dark-purple);
     color: var(--accent-teal);
+    font-size: 90%;
 }
 
-* {
-    padding: 10px;
+textarea {
+    background-color: black;
+    background-image: radial-gradient(
+            var(--accent-dark-purple), black 120%
+    );
+    height: 20em;
+    width: 20em;
+    margin: 0;
+    overflow: hidden;
+    padding: 2rem;
+    color: white;
+    font: 1rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+}
+textarea::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background: repeating-linear-gradient(
+             0deg,
+             rgba(var(--background-dark), 0.15),
+             rgba(var(--background-dark), 0.15) 1px,
+             transparent 1px,
+             transparent 2px
+     );
+     pointer-events: none;
+ }
+
+::selection {
+    background: #0080FF;
+    text-shadow: none;
 }
 
 .wrapper {
